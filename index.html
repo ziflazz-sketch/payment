@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Payment Information — PT Ziflazz Premium Server</title>
+
+  <!-- SEO & Social Sharing (Open Graph & Twitter) -->
+  <meta name="description" content="Informasi pembayaran resmi PT Ziflazz Premium Server. Pindai kode QRIS nasional Ziflazz Store atau transfer nomor GoPay / E-Wallet.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0F1E3A">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Payment Information — PT Ziflazz Premium Server">
+  <meta property="og:description" content="Pindai kode QRIS nasional atau gunakan nomor GoPay untuk konfirmasi pembayaran PT Ziflazz Premium Server.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Payment Information — PT Ziflazz Premium Server">
+  <meta name="twitter:description" content="Pindai kode QRIS nasional atau gunakan nomor GoPay untuk konfirmasi pembayaran PT Ziflazz Premium Server.">
+  <meta name="twitter:image" content="assets/og-image.png">
+
+  <!-- Favicon (SVG data URI matching the gold brand accent) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F1E3A'/%3E%3Cpath d='M9 10h14l-8 12h8' stroke='%23C9A961' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
+
+  <!-- Preload Critical Assets -->
+  <link rel="preload" href="assets/fonts/poppins-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/qris.png" as="image">
+
+  <!-- Fallback Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header Section (Navy Background with Delicate Arcs & Gold Details) -->
+    <header class="header-hero" role="banner">
+      <div class="header-top-bar">
+        <span class="label-payment-info" id="paymentInfoLabel">PAYMENT INFORMATION</span>
+
+        <!-- Theme Mode Toggle (PRD F7) -->
+        <button type="button" id="themeToggleBtn" class="theme-toggle-btn" aria-label="Ganti mode tampilan" title="Ganti mode terang/gelap">
+          <!-- Sun Icon (shown in dark mode) -->
+          <svg id="themeIconSun" viewBox="0 0 24 24" aria-hidden="true" style="display:none;">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (shown in light mode) -->
+          <svg id="themeIconMoon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+
+      <h1 class="brand-title">PT Ziflazz</h1>
+      <div class="brand-subtitle">Premium Server</div>
+      <div class="gold-divider" aria-hidden="true"></div>
+      <p class="header-desc">Pindai kode QRIS atau gunakan nomor GoPay di bawah ini.</p>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content" role="main">
+      <!-- QRIS Card (PRD F1, F1a, F4) -->
+      <section class="qris-card" aria-label="Kode QRIS Pembayaran">
+        <div class="qris-image-wrapper">
+          <img
+            src="assets/qris.png"
+            alt="Kode QRIS resmi ZIFLAZZ STORE, PULSA PAKET DATA - NMID ID1026481872061"
+            class="qris-image"
+            width="892"
+            height="1051"
+            loading="eager"
+            decoding="async"
+          >
+        </div>
+
+        <!-- Instructional note below QRIS (PRD F1a) -->
+        <div class="qris-instruction" role="note">
+          <svg class="instruction-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <p>Masukkan nominal sesuai tagihan Anda saat membayar.</p>
+        </div>
+
+        <!-- QRIS Download Button (PRD F4) -->
+        <div class="qris-actions">
+          <a
+            href="assets/qris.png"
+            download="QRIS-PT-Ziflazz-Store.png"
+            id="downloadQrisBtn"
+            class="btn-download-qris"
+            aria-label="Unduh gambar kode QRIS untuk disimpan di galeri perangkat"
+          >
+            <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Unduh QRIS</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- GoPay / E-Wallet Info Card (PRD F2) -->
+      <section class="info-card info-card--gopay" aria-label="Informasi GoPay">
+        <div class="accent-stripe" aria-hidden="true"></div>
+        <div class="info-body">
+          <div class="info-meta-row">
+            <span class="info-label" id="labelGopay">GOPAY / E-WALLET</span>
+            <div class="info-actions">
+              <button
+                type="button"
+                class="btn-action"
+                id="btnCopyGopay"
+                data-copy-target="082151025831"
+                data-copy-label="Nomor GoPay"
+                aria-label="Salin nomor GoPay 0821 5102 5831"
+              >
+                <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Salin</span>
+              </button>
+            </div>
+          </div>
+          <div class="info-value" id="valueGopay" aria-labelledby="labelGopay">0821 5102 5831</div>
+        </div>
+      </section>
+
+      <!-- Email Info Card (PRD F3) -->
+      <section class="info-card info-card--email" aria-label="Informasi Email">
+        <div class="accent-stripe" aria-hidden="true"></div>
+        <div class="info-body">
+          <div class="info-meta-row">
+            <span class="info-label" id="labelEmail">EMAIL</span>
+            <div class="info-actions">
+              <!-- Copy Email Button -->
+              <button
+                type="button"
+                class="btn-action"
+                id="btnCopyEmail"
+                data-copy-target="rafanurulizzaalfaqih21@gmail.com"
+                data-copy-label="Alamat email"
+                aria-label="Salin alamat email"
+              >
+                <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Salin</span>
+              </button>
+
+              <!-- Direct Mailto Link -->
+              <a
+                href="mailto:rafanurulizzaalfaqih21@gmail.com?subject=Konfirmasi%20Pembayaran%20PT%20Ziflazz"
+                class="btn-action btn-icon"
+                id="linkMailto"
+                aria-label="Kirim email konfirmasi pembayaran ke rafanurulizzaalfaqih21@gmail.com"
+                title="Kirim Email"
+              >
+                <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="info-value email-value" id="valueEmail" aria-labelledby="labelEmail">rafanurulizzaalfaqih21@gmail.com</div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Bar (Matching PDF) -->
+    <footer class="footer-bar" role="contentinfo">
+      <div class="footer-left">PT Ziflazz · Premium Server</div>
+      <div class="footer-right">Mohon periksa nama merchant sebelum membayar</div>
+    </footer>
+  </div>
+
+  <!-- Toast Notification Feedback (PRD F5) -->
+  <div id="toastNotification" class="toast-container" role="status" aria-live="polite">
+    <svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <span id="toastText">Tersalin ke papan klip!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>
